@@ -1,0 +1,157 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! It's really nice to see you here. How are you feeling today? I'm here to listen and support you in any way you need.",
+        "Hi there! I'm here to listen to whatever is on your mind. How are you doing today?",
+        "Hello! Thanks for reaching out. How can I help you today? Remember, I'm here to support you.",
+        "Hi! How are you doing today? I'm here to provide a listening ear and any support you might need."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Take care of yourself, and remember that I'm always here whenever you need to talk. Goodbye for now.",
+        "Goodbye! Please take good care of yourself, and don't hesitate to come back if you need someone to talk to.",
+        "Bye! Remember, it's okay to reach out whenever you need support. I'm always here to listen."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": [
+        "You're very welcome! I'm glad I could be here for you. Please don't hesitate to reach out again if you need anything.",
+        "Anytime! It's my pleasure to help. Take care of yourself and remember, I'm here if you need to talk.",
+        "My pleasure. I'm happy to be of help. Please take care and know that I'm here if you need further support."
+      ]
+    },
+    {
+      "tag": "feeling_down",
+      "patterns": [
+        "I'm feeling down",
+        "I'm sad",
+        "I'm depressed",
+        "I feel unhappy"
+      ],
+      "responses": [
+        "I'm really sorry to hear that you're feeling this way. It's important to talk about it. Would you like to share more about what's been going on?",
+        "It sounds like you're going through a tough time. I'm here to listen and support you. Would you like to tell me more about how you're feeling?",
+        "It's okay to feel down sometimes. You're not alone. How long have you been feeling like this? I'm here to listen.",
+        "I'm here for you. It can really help to talk about what’s troubling you. Can you share more about what's been making you feel this way?"
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I'm feeling anxious",
+        "I have anxiety",
+        "I feel nervous",
+        "I'm anxious"
+      ],
+      "responses": [
+        "Anxiety can be overwhelming. Let's take a moment to breathe together. What do you think is making you feel anxious right now?",
+        "I'm here for you. Anxiety can be tough to deal with. Talking about what's on your mind can really help. Do you want to share what's causing your anxiety?",
+        "It can be hard to manage anxiety alone. I'm here to support you. What usually helps you feel calmer when you're feeling anxious?",
+        "I'm really sorry you're feeling this way. Would you like to talk more about what's causing your anxiety? Sometimes sharing can make a big difference."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I need motivation",
+        "I'm feeling unmotivated",
+        "How can I get motivated?",
+        "I lack motivation"
+      ],
+      "responses": [
+        "It's completely normal to feel unmotivated at times. Let’s talk about what usually inspires you. What small steps can you take today to feel more motivated?",
+        "Setting small, achievable goals can often help build motivation. What’s one small thing you can do today to move towards your goal?",
+        "Remember to be kind to yourself. Motivation can come and go, and that’s okay. What’s something you enjoy doing that might help spark your motivation?",
+        "It’s okay to feel unmotivated sometimes. Let's explore what might be holding you back and think about ways to get started. How can I support you in this?"
+      ]
+    },
+    {
+      "tag": "self_care",
+      "patterns": [
+        "What are some self-care tips?",
+        "How can I take better care of myself?",
+        "What should I do for self-care?",
+        "I need self-care advice"
+      ],
+      "responses": [
+        "Self-care is essential for your well-being. Have you tried taking some time to relax and do something you enjoy, like reading a book or going for a walk?",
+        "It's great that you're thinking about self-care. What activities make you feel refreshed and recharged? Sometimes even small things can make a big difference.",
+        "Sometimes, simple things like taking a walk in nature, spending time with loved ones, or enjoying a hobby can really help. What do you enjoy doing?",
+        "Taking care of yourself is very important. What does your ideal self-care routine look like? Let’s think about some activities that make you feel good."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Sure! Why don't scientists trust atoms? Because they make up everything! I hope that brought a smile to your face.",
+        "I'd love to! Why did the scarecrow win an award? Because he was outstanding in his field! Hope that lightened your mood a bit.",
+        "Of course! Why did the bicycle fall over? Because it was two-tired! I hope that made you chuckle."
+      ]
+    },
+    {
+      "tag": "relationship_issues",
+      "patterns": [
+        "I'm having relationship issues",
+        "I'm having problems with my partner",
+        "I'm struggling with my relationship",
+        "My relationship is not going well"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're experiencing relationship issues. Relationships can be challenging. Would you like to talk more about what's been happening?",
+        "It sounds like you're going through a tough time with your relationship. I'm here to listen and support you. Do you want to share more details?",
+        "Relationships can have ups and downs. It's okay to seek help. Can you tell me more about what's been troubling you in your relationship?",
+        "I'm here for you. Relationship issues can be very difficult. How long have you been experiencing these problems? I'm here to listen."
+      ]
+    },
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "I'm feeling stressed",
+        "I have too much stress",
+        "How can I manage my stress?",
+        "I'm overwhelmed with stress"
+      ],
+      "responses": [
+        "Stress can be very overwhelming. It's important to find ways to manage it. What do you think is the main source of your stress?",
+        "I'm sorry to hear that you're feeling stressed. Taking some deep breaths can help. Would you like to talk more about what's causing your stress?",
+        "Managing stress is crucial for your well-being. What usually helps you relax when you're feeling overwhelmed?",
+        "It sounds like you're dealing with a lot of stress. I'm here to listen and support you. Can you share more about what's been stressing you out?"
+      ]
+    },
+    {
+      "tag": "self_esteem",
+      "patterns": [
+        "I'm struggling with self-esteem",
+        "I don't feel good about myself",
+        "How can I improve my self-esteem?",
+        "I have low self-esteem"
+      ],
+      "responses": [
+        "It's important to be kind to yourself. Building self-esteem takes time. What are some things you like about yourself?",
+        "I'm here to support you. Everyone has unique strengths and qualities. What makes you feel proud of yourself?",
+        "Improving self-esteem can be challenging, but you can do it. What positive affirmations can you tell yourself today?",
+        "I'm sorry to hear that you're struggling with self-esteem. Can you share more about what makes you feel this way? I'm here to listen."
+      ]
+    }
+  ]
+}
